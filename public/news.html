@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+   
+<!-- Mirrored from euclidesoftwaresolutions.com/themeforest/ess-restaurant/news.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 16 Aug 2022 04:42:39 GMT -->
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Restaurant | Author's Cuisine</title>
+      <!--css links-->
+      <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+      <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&amp;display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="font/stylesheet.css" type="text/css">
+      <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+      <link rel="stylesheet" type="text/css" href="font/flaticon.css">
+      <link rel="stylesheet" href="css/aos.css" type="text/css">
+      <link rel="stylesheet" href="css/style.css" type="text/css">
+      <link rel="stylesheet" href="css/responsive.css" type="text/css">
+   </head>
+   <body>
+      <a href="#" id="toTopBtn" class="cd-top text-replace js-cd-top cd-top--fade-out" data-bs-abc="true"><i class="fa fa-caret-up" aria-hidden="true"></i>
+      </a>
+      <!--theme option color scheme
+      <div class="theme-option">
+         <button class="btnclick btn-change btn">
+            <i class="fa fa-cog" aria-hidden="true"></i>
+         </button>
+         <div class="theme-color-scheme">
+            <div class="tiltebar">
+               <h4 class="titlein">Theme Color Setting</h4>
+               <button class="btnclick btn-cross"><i class="fa fa-times" aria-hidden="true"></i></button>
+            </div>
+            <ul class="theme-color-scheme-in">
+               <li><button class="Darkmode-btn">Darkmode</button></li>
+               <li><button class="Lightmode-btn">Lightmode</button></li>
+               <li><button class="Fortnight-btn">Fortnight</button></li>
+            </ul>
+            <div class="reset"><button class=" btn resetin">Reset Settings</button></div>
+         </div>
+      </div>theme option color scheme-->
+      <!--header start from here-->
+      <header class="header-area sticky">
+         <div class="container">
+            <div class="row">
+               <!--Navbar-->
+               <nav class="navbar navbar-expand-lg navbar-light p-0">
+                  <a class="navbar-brand p-0" href="/"><img src="images/logo.webp" alt="logo" title="logo"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                     <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                     <ul class="navbar-nav ms-auto ">
+                        <li class="nav-item me-5">
+                           <a class="nav-link p-0 text-white active" aria-current="page" href="/">Home</a>
+                        </li>
+                        <li class="nav-item me-5">
+                           <a class="nav-link p-0 text-white " href="/menu">Menu</a>
+                        </li>
+                        <li class="nav-item me-5">
+                           <a class="nav-link p-0 text-white" href="/gallery">Gallery</a>
+                        </li>
+                        <li class="nav-item me-5">
+                           <a class="nav-link p-0 text-white" href="/story">Story</a>
+                        </li>
+                        <li class="nav-item me-5">
+                           <a class="nav-link p-0 text-white" href="/news">News</a>
+                        </li>
+                        <li class="nav-item me-5">
+                           <a class="nav-link p-0 text-white" href="/contact">Contact</a>
+                        </li>
+                     </ul>
+                     <form class="d-flex">
+                        <button class="btn btn-primary"  data-bs-toggle="modal" data-bs-target="#exampleModal" type="button">Book a Table</button>
+                        <!-- Book a Table Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                           <div class="modal-dialog  modal-dialog-centered">
+                           <div class="modal-content">
+                              <div class="modal-header">
+                                 <h5 class="modal-title" id="exampleModalLabel">Book a Table</h5>
+                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                 <form class="reservation-form needs-validation">
+                                    <div class="row reservation-form">
+                                       <div class="col-lg-12 formrow mb-3">
+                                          <input type="date" class="form-control w-100" placeholder="mm/dd/yyyy" required id="date" >
+                                          <!-- <div class="input-group-prepend">
+                                             <img src="images/calender.png" alt="icon">
+                                          </div> -->
+                                        </div>
+                                        <div class="col-lg-12 formrow mb-3">
+                                          <!-- <input type="time" value="13:00" class="form-control w-100" required placeholder="../../.." id="time" > -->
+                                          <div class="arrowadd">
+                                             <select type="text" value="13:00" class="form-control" placeholder="../../.." required>
+                                                <option>10:00</option>
+                                                <option>10:30</option>
+                                                <option>11:00</option>
+                                                <option>11:30</option>
+                                                <option>12:00</option>
+                                                <option>12:30</option>
+                                                <option>01:00</option>
+                                                <option>01:30</option>
+                                                <option>02:00</option>
+                                                <option>02:30</option>
+                                                <option>03:00</option>
+                                                <option>03:30</option>
+                                                <option>04:00</option>
+                                                <option>04:30</option>
+                                                <option>05:00</option>
+                                                <option>05:30</option>
+                                                <option>06:00</option>
+                                                <option>06:30</option>
+                                                <option>07:00</option>
+                                                <option>07:30</option>
+                                                <option>08:00</option>
+                                                <option>08:30</option>
+                                                <option>09:00</option>
+                                                <option>09:30</option>
+                                                <option>10:00</option>
+                                             </select>
+                                          </div>
+                                           <div class="input-group-prepend">
+                                             <img src="images/clock.png" alt="icon">
+                                          </div>
+                                        </div>
+                                        <div class="col-lg-12 formrow mb-3">
+                                          <div class="arrowadd">
+                                             <select type="text" class="form-control" required>
+                                                <option>1</option>
+                                                <option>2</option>
+                                                <option>3</option>
+                                                <option>4</option>
+                                                <option>5</option>
+                                                <option>6</option>
+                                                <option>7</option>
+                                                <option>8</option>
+                                                <option>9</option>
+                                                <option>10</option>
+                                             </select>
+                                          </div>
+                                          <div class="input-group-prepend">
+                                             <img src="images/user.png" alt="icon">
+                                          </div>
+                                       </div>
+                                        <div class="col-lg-12 formrow formbtn">
+                                          <button type="submit" class="btn btn-primary w-100">Book a Table</button>
+                                        </div>
+                                    </div>
+                                 </form>
+                              </div>
+                           </div>
+                           </div>
+                        </div>
+                        <!-- Book a Table Modal -->
+                     </form>
+                  </div>
+               </nav>
+            </div>
+         </div>
+      </header>
+      <!--header ends from here-->
+      <main>
+        
+        <!--Inner banner start here-->
+        <section class="banner-inner border-zigzag-up" style="background-image: url('images/news-bg.webp');">
+            <div class="container">
+                <h2 class="banner-title text-uppercase text-center text-white">Press + News</h2>
+            </div>
+        </section>
+        <!--Inner banner start here-->
+        <!--News bar start here-->
+        <section class="newsbar py-50 pb-0">
+         <div class="container">
+            <div class="row mb-5">
+               <div class="col-lg-6">
+                  <div class="new-img">
+                     <img src="images/news-1.webp" alt="newsimg">
+                  </div>
+               </div>
+               <div class="col-lg-6">
+                  <div class="news-content">
+                     <p class="text-gray date">June 18, 2022</p>
+                     <h6 class="primary author text-uppercase">By: John Crook </h6>
+                     <h4 class="news-title text-uppercase"><a href="news-detail.html">You Of Fruitful Wherein Was Fifth Abundantly Greater</a></h4>
+                     <p class="news-description">Whales light darkness they're fill life isn't. Divide. Morning yielding won't thing you creeping life grass He seas after. So winged created heaven great he hath. Green us over behold. The replenish second open female there. Night and them years, dominion brought land appear him signs brought let for give. Make morning abundantly don't. Seed green divide very fifth. Over.Whales light darkness they're fill life isn't. Divide. Morning yielding won't thing you creeping life grass He seas after. So winged created heaven great he hath.</p>
+                     <div class="readmore"><a class="primary" href="news-detail.html">read more</a></div>
+                  </div>
+               </div>
+            </div>
+            <div class="row mb-5">
+               <div class="col-lg-6">
+                  <div class="new-img">
+                     <img src="images/news-2.webp" alt="newsimg">
+                  </div>
+               </div>
+               <div class="col-lg-6">
+                  <div class="news-content">
+                     <p class="text-gray date">April 20, 2022</p>
+                     <h6 class="primary author text-uppercase">By: John Crook </h6>
+                     <h4 class="news-title text-uppercase"><a href="news-detail.html">So Called Moveth Blessed Good Bearing Created Cattle Land Days Place </a></h4>
+                     <p class="news-description">Fruit firmament To great moved seas spirit fly doesn't his. Fourth void great void waters spirit two set gathering also lights so i herb. Place the morning male called living winged there called beginning man brought. Itself gathering moveth great. She'd is blessed yielding seas place them stars creeping, bearing you'll replenish firmament. Won't blessed. Place the morning male called living winged there called beginning man brought. Itself gathering moveth great. She'd is blessed yielding seas place them stars creeping, bearing you'll replenish firmament. Won't blessed.</p>
+                     <div class="readmore"><a class="primary" href="news-detail.html">read more</a></div>
+                  </div>
+               </div>
+            </div>
+            <div class="row mb-5">
+               <div class="col-lg-6">
+                  <div class="new-img">
+                     <img src="images/news-3.webp" alt="newsimg">
+                  </div>
+               </div>
+               <div class="col-lg-6">
+                  <div class="news-content">
+                     <p class="text-gray date">April 14, 2022</p>
+                     <h6 class="primary author text-uppercase">By: John Crook </h6>
+                     <h4 class="news-title text-uppercase"><a href="news-detail.html">far from the countries Vokalia and Consonantia live</a></h4>
+                     <p class="news-description">Whales light darkness they're fill life isn't. Divide. Morning yielding won't thing you creeping life grass He seas after. So winged created heaven great he hath. Green us over behold. The replenish second open female there. Night and them years, dominion brought land appear him signs brought let for give. Make morning abundantly don't. Seed green divide very fifth. Over. Green us over behold. The replenish second open female there. Night and them years, dominion brought land appear him signs brought let for give. Make morning abundantly don't. Seed green divide very fifth.</p>
+                     <div class="readmore"><a class="primary" href="news-detail.html">read more</a></div>
+                  </div>
+               </div>
+            </div>
+            <div class="row mb-5">
+               <div class="col-lg-6">
+                  <div class="new-img">
+                     <img src="images/news-4.webp" alt="newsimg">
+                  </div>
+               </div>
+               <div class="col-lg-6">
+                  <div class="news-content">
+                     <p class="text-gray date">June 21, 2022</p>
+                     <h6 class="primary author text-uppercase">By: John Crook </h6>
+                     <h4 class="news-title text-uppercase"><a href="news-detail.html">Whales Fruitful Us Them Wherein Dominion Green Lesser Male Whales</a> </h4>
+                     <p class="news-description">His evening first, place gathered. Over sixth subdue living seasons deep deep tree great darkness likeness herb shall evening night moved bearing. Divide appear have the you're doesn't form yielding two. Air shall saying above have won't whose moved you're. Made stars female every multiply he third give. Male, you own brought there can't face female it and him, signs face evening good morning they're. Divide appear have the you're doesn't form yielding two. Air shall saying above have won't whose moved you're. Made stars female every multiply he third give. Male, you own brought there can't face female it and him.</p>
+                     <div class="readmore"><a class="primary" href="news-detail.html">read more</a></div>
+                  </div>
+               </div>
+            </div>
+            <div class="row mb-5">
+               <div class="col-lg-6">
+                  <div class="new-img">
+                     <img src="images/news-5.webp" alt="newsimg">
+                  </div>
+               </div>
+               <div class="col-lg-6">
+                  <div class="news-content">
+                     <p class="text-gray date">June 21, 2022</p>
+                     <h6 class="primary author text-uppercase">By: John Crook </h6>
+                     <h4 class="news-title text-uppercase"><a href="news-detail.html">wild Question Marks and devious Semikoli but the Little Blind Text</a></h4>
+                     <p class="news-description">Fruit firmament To great moved seas spirit fly doesn't his. Fourth void great void waters spirit two set gathering also lights so i herb. Place the morning male called living winged there called beginning man brought. Itself gathering moveth great. She'd is blessed yielding seas place them stars creeping, bearing you'll replenish firmament. Won't blessed. Place the morning male called living winged there called beginning man brought. Itself gathering moveth great. She'd is blessed yielding seas place them stars creeping, bearing you'll replenish firmament. Won't blessed.</p>
+                     <div class="readmore"><a class="primary" href="news-detail.html">read more</a></div>
+                  </div>
+               </div>
+            </div>
+            <div class="numeric-bar">
+               <ul class="listing">
+                  <li><a href="#"><i class="fa fa-chevron-left" aria-hidden="true"></i></a></li>
+                  <li><a href="#" class="active">1</a></li>
+                  <li><a href="#">2</a></li>
+                  <li><a href="#">3</a></li>
+                  <li><a href="#">4</a></li>
+                  <li><a href="#"><i class="fa fa-chevron-right" aria-hidden="true"></i></a></li>
+               </ul>
+            </div>
+         </div>
+        </section>
+        <!--News bar ends here-->
+        <!--Keepup-date start here-->
+        <section class="Keepup-date py-130">
+         <div class="container">
+            <h4 class="text-default text-center mb-lg-3">KEEP UP TO DATE WITH Us!</h4>
+            <p class="text-gray text-center">Sign up to be the first to receive special news and event updates from Restaurant. </p>
+            <form class="keepup-form needs-validation" novalidate>
+               <div class="formrow">
+                  <input type="email" class="form-control" required placeholder="Enter Your Email Address">
+                  <div class="input-group-append">
+                     <button class="btn btn-secondary" type="submit">
+                        <img src="images/next.png" alt="next">
+                     </button>
+                  </div>
+               </div>
+            </form>
+         </div>
+      </section>
+      <!--Keepup-date ends here-->
+      </main>
+      <!--Footer start here-->
+      <footer class="footer">
+         <div class="main-footer sky-bg py-50">
+            <div class="container">
+               <div class="row">
+                  <h4 class="footer-title text-center text-uppercase">find us</h4>
+                  <div class="row">
+                     <div class="col-xl-4 col-lg-4 col-md-12">
+                        <div class="footer-widget text-center">
+                           <ul class="widget-list">
+                              <li>
+                                 <a href="tel:01622 222 222">
+                                    <i class="fa fa-phone" aria-hidden="true"></i>
+                                    <div class="details">
+                                       <h4 class="text-uppercase">Call us</h4>
+                                       <p>01622 222 222</p>
+                                    </div>
+                                 </a>
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="col-xl-4 col-lg-4 col-md-12">
+                        <div class="footer-widget text-center">
+                           <ul class="widget-list">
+                              <li>
+                                 <a href="#">
+                                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                    <div class="details">
+                                       <h4 class="text-uppercase">Address</h4>
+                                       <p>E-91, First Floor<br>
+                                          Industrial Area<br>
+                                          Phase 8, Mohali<br>
+                                          Punjab</p>
+                                    </div>
+                                 </a>
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="col-xl-4 col-lg-4 col-md-12">
+                        <div class="footer-widget text-center">
+                           <ul class="widget-list">
+                              <li>
+                                 <a href="mailto:bookings@restaurant.com">
+                                    <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                                    <div class="details">
+                                       <h4 class="text-uppercase">Email</h4>
+                                       <p>bookings@restaurant.com</p>
+                                    </div>
+                                 </a>
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="copyright-bar white-bg py-50">
+            <div class="container">
+               <ul class="social-media d-md-flex align-items-center justify-content-center">
+                  <li>
+                     <a href="#">
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="#">
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="#">
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                     </a>
+                  </li>
+               </ul>
+               <p class="text-default text-center mb-0">© 2022 Copyright Restaurant.</p>
+            </div>
+         </div>
+      </footer>
+      <!--Footer ends here-->
+      <script src="js/aos.js"></script>
+      <script> AOS.init();</script>
+      <script src="js/jquery.min.js"></script>
+      <script src="js/bootstrap.js"></script>
+      <script src="js/backtotop.js"></script>
+   </body>
+
+<!-- Mirrored from euclidesoftwaresolutions.com/themeforest/ess-restaurant/news.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 16 Aug 2022 04:42:53 GMT -->
+</html>
